@@ -6,19 +6,11 @@ from Lion import Lion
 from Rhino import Rhino
 from Tiger import Tiger
 from Wolf import Wolf
-from Zookeeper import ZooKeeper
 
 
 class Zoo():
 	def __init__(self):
-		animals = self.__initializeZoo()
-		zooKeeper = ZooKeeper()
-		zooKeeper._wake(animals)
-		zooKeeper._rollCall(animals)
-		zooKeeper._feed(animals)
-		zooKeeper._exercise(animals)
-		zooKeeper._shutdown(animals)
-
+		self.animals = self.__initializeZoo()
 
 	@staticmethod
 	def __initializeZoo():
