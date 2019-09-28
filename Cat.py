@@ -1,6 +1,7 @@
 from Feline import Feline
 import random
 
+
 class Cat(Feline):
 	def __init__(self, name):
 		super().__init__(name)
@@ -17,7 +18,9 @@ class Cat(Feline):
 
 	def __meow(self):
 		return super()._getName() + " is meowing."
+
 	def __layDown(self):
 		return super()._getName() + " is laying down."
+
 	def __sharpenClaws(self):
 		return super()._getName() + " is sharpening claws."

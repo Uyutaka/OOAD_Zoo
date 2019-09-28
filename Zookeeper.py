@@ -1,5 +1,17 @@
+'''
+@Author  :   Yutaka Urakami, Hao Wu, Linus Wu
+
+@File    :   Zookeeper.py
+
+@Time    :   09/28/2019
+
+@Desc    :   This is observable object, which can let ZooAnnouncer know if any updates here.
+			Also, It can do different operations in Zoo.
+'''
+
 from Subject import Subject
 from Task import Task
+
 
 class ZooKeeper(Subject):
 	def __init__(self, zoo):
@@ -11,17 +23,19 @@ class ZooKeeper(Subject):
 		self.observers.append(observer)
 
 	def removeObserver(self, observer):
-		self.remove(observer)
+		self.observers.remove(observer)
 
 	def notifyObservers(self):
 		for o in self.observers:
 			o.update(self.task)
 
-	def setTast(self, task):
+	def setTask(self, task):
 		self.task = task
 		self.notifyObservers()
-
 		self.doTask()
+
+	def getTask(self, task):
+		return task
 
 	def doTask(self):
 

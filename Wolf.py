@@ -2,8 +2,9 @@ from Canine import Canine
 
 
 class Wolf(Canine):
-	def __init__(self, name):
+	def __init__(self, name, makeNoise):
 		super().__init__(name)
+		self.makeNoise = makeNoise
 
 	def _makeNoise(self):
-		return super()._getName() + " is Aooooo"
+		return super()._getName() + self.makeNoise.makeNoise()
