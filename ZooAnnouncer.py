@@ -1,3 +1,14 @@
+'''
+@Author  :   Yutaka Urakami, Hao Wu, Linus Wu
+
+@File    :   ZooAnnouncer.py
+
+@Time    :   09/28/2019
+
+@Desc    :   This is observer, which observes the Zookeeper to see if any updates.
+
+'''
+
 from Observer import Observer
 
 
