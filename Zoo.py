@@ -23,7 +23,7 @@ from DogNoise import DogNoise
 
 class Zoo:
 	def __init__(self):
-		self.animals = self.__initializeZoo()
+		self._animals = self.__initializeZoo()
 
 	@staticmethod
 	def __initializeZoo():

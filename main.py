@@ -7,7 +7,10 @@ zoo = Zoo()
 keeper = ZooKeeper(zoo)
 announcer = ZooAnnouncer(keeper)
 
+keeper.setTask(Task.WAKE)
 keeper.setTask(Task.ROLL_CALL)
 keeper.setTask(Task.FEED)
 keeper.setTask(Task.EXERCISE)
 keeper.setTask(Task.SHUTDOWN)
+
+keeper.removeObserver(announcer)

@@ -15,67 +15,65 @@ from Task import Task
 
 class ZooKeeper(Subject):
 	def __init__(self, zoo):
-		self.zoo = zoo
-		self.task = None
-		self.observers = []
+		self.__zoo = zoo
+		self.__task = None
+		self.__observers = []
 
 	def registerObserver(self, observer):
-		self.observers.append(observer)
+		self.__observers.append(observer)
 
 	def removeObserver(self, observer):
-		self.observers.remove(observer)
+		self.__observers.remove(observer)
 
 	def notifyObservers(self):
-		for o in self.observers:
-			o.update(self.task)
+		for o in self.__observers:
+			o.update(self.__task)
 
 	def setTask(self, task):
-		self.task = task
+		self.__task = task
 		self.notifyObservers()
-		self.doTask()
+		self.__doTask()
 
-	def getTask(self, task):
-		return task
 
-	def doTask(self):
+	def __doTask(self):
 
-		if self.task == Task.WAKE:
-			self._wake()
-		elif self.task == Task.ROLL_CALL:
-			self._rollCall()
-		elif self.task == Task.FEED:
-			self._feed()
-		elif self.task == Task.EXERCISE:
-			self._exercise()
-		elif self.task == Task.SHUTDOWN:
-			self._shutdown()
+		if self.__task == Task.WAKE:
+			self.__wake()
+		elif self.__task == Task.ROLL_CALL:
+			self.__rollCall()
+		elif self.__task == Task.FEED:
+			self.__feed()
+		elif self.__task == Task.EXERCISE:
+			self.__exercise()
+		elif self.__task == Task.SHUTDOWN:
+			self.__shutdown()
 
-	def _wake(self):
+	def __wake(self):
 		print("The zookeeper is waking up animals")
-		for a in self.zoo.animals:
+		for a in self.__zoo._animals:
 			print(a._wakeup())
 		print("\n")
 
-	def _rollCall(self):
+	def __rollCall(self):
 		print("The zookeeper is rolling call animals")
-		for a in self.zoo.animals:
+		for a in self.__zoo._animals:
 			print(a._makeNoise())
 		print("\n")
 
-	def _feed(self):
+	def __feed(self):
 		print("The zookeeper is feeding animals")
-		for a in self.zoo.animals:
+		for a in self.__zoo._animals:
 			print(a._eat())
 		print("\n")
 
-	def _exercise(self):
+	def __exercise(self):
 		print("The zookeeper is exercising animals")
-		for a in self.zoo.animals:
+		for a in self.__zoo._animals:
 			print(a._roam())
 		print("\n")
 
-	def _shutdown(self):
+	def __shutdown(self):
 		print("The zookeeper is shutting down the zoo")
-		for a in self.zoo.animals:
+		for a in self.__zoo._animals:
 			print(a._sleep())
 		print("\n")
