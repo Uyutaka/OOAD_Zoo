@@ -1,17 +1,17 @@
 '''
 @Author  :   Yutaka Urakami, Hao Wu, Linus Wu
 
-@File    :   MakeNoise.py
+@File    :   NoiseAlgorithm.py
 
 @Time    :   09/28/2019
 
-@Desc    :   This is interface for MakeNoise, as it is used for strategy pattern.
+@Desc    :   This is interface for NoiseAlgorithm, as it is used for strategy pattern.
 
 '''
 
 from abc import ABCMeta, abstractmethod
 
-class MakeNoise(metaclass=ABCMeta):
+class NoiseAlgorithm(metaclass=ABCMeta):
     @abstractmethod
     def makeNoise(self):
         pass

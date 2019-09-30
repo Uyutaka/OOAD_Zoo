@@ -1,17 +1,17 @@
 '''
 @Author  :   Yutaka Urakami, Hao Wu, Linus Wu
 
-@File    :   DogNoise.py
+@File    :   DogNoiseAlgorithm.py
 
 @Time    :   09/28/2019
 
-@Desc    :   This class implements the MakeNoise interface, as it can help dog to make noise.
+@Desc    :   This class implements the NoiseAlgorithm interface, as it can help dog to make noise.
 
 '''
 
-from MakeNoise import MakeNoise
+from NoiseAlgorithm import NoiseAlgorithm
 
-class DogNoise(MakeNoise):
+class DogNoise(NoiseAlgorithm):
 
     def makeNoise(self):
         return " is Wang Wang(from strategy parttern)"
