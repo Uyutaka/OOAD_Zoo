@@ -13,7 +13,7 @@ from abc import ABCMeta, abstractmethod
 
 
 class Animal(metaclass=ABCMeta):
-    @abstractmethod
+
     def __init__(self, name):
         self.__name = name
 
