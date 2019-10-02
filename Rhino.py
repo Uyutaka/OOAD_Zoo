@@ -1,3 +1,14 @@
+'''
+@Author  :   Yutaka Urakami, Hao Wu, Linus Wu
+
+@File    :   Rhino.py
+
+@Time    :   09/28/2019
+
+@Desc    :   This class is a concrete Rhino class, it implements the _makeNoise() function.
+
+'''
+
 from Pachyderm import Pachyderm
 
 

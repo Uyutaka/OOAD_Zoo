@@ -1,3 +1,14 @@
+'''
+@Author  :   Yutaka Urakami, Hao Wu, Linus Wu
+
+@File    :   Lion.py
+
+@Time    :   09/28/2019
+
+@Desc    :   This class is a concrete Lion class, it implements the _makeNoise() function.
+
+'''
+
 from Feline import Feline
 
 
