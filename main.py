@@ -1,3 +1,14 @@
+'''
+@Author  :   Yutaka Urakami, Hao Wu, Linus Wu
+
+@File    :   main.py
+
+@Time    :   09/28/2019
+
+@Desc    :   This class is a main() function of this project. It can output some basic information on the console.
+
+'''
+
 from Task import Task
 from Zoo import Zoo
 from ZooAnnouncer import ZooAnnouncer

@@ -1,3 +1,14 @@
+'''
+@Author  :   Yutaka Urakami, Hao Wu, Linus Wu
+
+@File    :   Pachyderm.py
+
+@Time    :   09/28/2019
+
+@Desc    :   This class is a abstract class inherits from Animal, and it is a base class for all kinds of Pachyderm.
+
+'''
+
 from abc import ABCMeta, abstractmethod
 from Animal import Animal
 

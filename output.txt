@@ -1,0 +1,102 @@
+Hi, this is the ZooAnnouncer. The Zookeeper is about to wake the animals!
+The zookeeper is waking up animals
+hippo1 (Hippo)is waking up just now ("Stamp, stamp, Stamp")
+hippo2 (Hippo)is waking up just now ("Stamp, stamp, Stamp")
+rhino1 (Rhino)is waking up just now ("Stamp, stamp, Stamp")
+rhino2 (Rhino)is waking up just now ("Stamp, stamp, Stamp")
+elephant1 (Elephant)is waking up just now ("Stamp, stamp, Stamp")
+elephant2 (Elephant)is waking up just now ("Stamp, stamp, Stamp")
+cat1 (Cat) waked up just now
+cat2 (Cat) waked up just now
+tiger1 (Tiger) waked up just now
+tiger2 (Tiger) waked up just now
+lion1 (Lion) waked up just now
+lion2 (Lion) waked up just now
+wolf1 (Wolf) waked up just now
+wolf2 (Wolf) waked up just now
+dog1 (Dog) waked up just now
+dog2 (Dog) waked up just now
+
+
+Hi, this is the ZooAnnouncer. The Zookeeper is about to roll call the animals!
+The zookeeper is rolling call animals
+hippo1 (Hippo) is Mowww
+hippo2 (Hippo) is Mowww
+rhino1 (Rhino) is Mowwwwwww
+rhino2 (Rhino) is Mowwwwwww
+elephant1 (Elephant) is WYuuuuu
+elephant2 (Elephant) is WYuuuuu
+cat1 (Cat) is meowing.
+cat2 (Cat) is sharpening claws.
+tiger1 (Tiger) is Woooo
+tiger2 (Tiger) is Woooo
+lion1 (Lion) is Aoooooo
+lion2 (Lion) is Aoooooo
+wolf1 (Wolf) is Aooooooooo(from strategy pattern)
+wolf2 (Wolf) is Aooooooooo(from strategy pattern)
+dog1 (Dog) is Wang Wang(from strategy parttern)
+dog2 (Dog) is Wang Wang(from strategy parttern)
+
+
+Hi, this is the ZooAnnouncer. The Zookeeper is about to feed the animals!
+The zookeeper is feeding animals
+hippo1 (Hippo) is eating
+hippo2 (Hippo) is eating
+rhino1 (Rhino) is eating
+rhino2 (Rhino) is eating
+elephant1 (Elephant) is eating
+elephant2 (Elephant) is eating
+cat1 (Cat) is eating
+cat2 (Cat) is eating
+tiger1 (Tiger) is eating
+tiger2 (Tiger) is eating
+lion1 (Lion) is eating
+lion2 (Lion) is eating
+wolf1 (Wolf) is eating
+wolf2 (Wolf) is eating
+dog1 (Dog) is eating
+dog2 (Dog) is eating
+
+
+Hi, this is the ZooAnnouncer. The Zookeeper is about to exercise the animals!
+The zookeeper is exercising animals
+hippo1 (Hippo) is roaming (Pachyderm)
+hippo2 (Hippo) is roaming (Pachyderm)
+rhino1 (Rhino) is roaming (Pachyderm)
+rhino2 (Rhino) is roaming (Pachyderm)
+elephant1 (Elephant) is roaming (Pachyderm)
+elephant2 (Elephant) is roaming (Pachyderm)
+cat1 (Cat)is roaming (Feline)
+cat2 (Cat)is roaming (Feline)
+tiger1 (Tiger)is roaming (Feline)
+tiger2 (Tiger)is roaming (Feline)
+lion1 (Lion)is roaming (Feline)
+lion2 (Lion)is roaming (Feline)
+wolf1 (Wolf)is roaming(Canine).
+wolf2 (Wolf)is roaming(Canine).
+dog1 (Dog)is roaming(Canine).
+dog2 (Dog)is roaming(Canine).
+
+
+Hi, this is the ZooAnnouncer. The Zookeeper is about to shutdown the animals!
+The zookeeper is shutting down the zoo
+hippo1 (Hippo) is sleeping (Zzzzz)
+hippo2 (Hippo) is sleeping (Zzzzz)
+rhino1 (Rhino) is sleeping (Zzzzz)
+rhino2 (Rhino) is sleeping (Zzzzz)
+elephant1 (Elephant) is sleeping (Zzzzz)
+elephant2 (Elephant) is sleeping (Zzzzz)
+cat1 (Cat) is sleeping (Zzzzz)
+cat2 (Cat) is sleeping (Zzzzz)
+tiger1 (Tiger) is sleeping (Zzzzz)
+tiger2 (Tiger) is sleeping (Zzzzz)
+lion1 (Lion) is sleeping (Zzzzz)
+lion2 (Lion) is sleeping (Zzzzz)
+wolf1 (Wolf) is sleeping (Zzzzz)
+wolf2 (Wolf) is sleeping (Zzzzz)
+dog1 (Dog) is sleeping (Zzzzz)
+dog2 (Dog) is sleeping (Zzzzz)
+
+
+
+Process finished with exit code 0

@@ -1,3 +1,14 @@
+'''
+@Author  :   Yutaka Urakami, Hao Wu, Linus Wu
+
+@File    :   Tiger.py
+
+@Time    :   09/28/2019
+
+@Desc    :   This class is a concrete Tiger class, it implements the _makeNoise() function.
+
+'''
+
 from Feline import Feline
 
 
