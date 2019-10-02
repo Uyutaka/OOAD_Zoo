@@ -11,12 +11,12 @@
 
 '''
 
-from abc import ABCMeta
+from abc import ABCMeta, abstractmethod
 from Animal import Animal
 
 
 class Canine(Animal, metaclass=ABCMeta):
-
+    @abstractmethod
     def __init__(self, name, noiseAlgorithm):
         super().__init__(name)
         self.__noiseAlgorithm = noiseAlgorithm
